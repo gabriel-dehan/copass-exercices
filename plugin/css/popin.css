@@ -1,0 +1,29 @@
+.popin {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.popin .background {
+  position: absolute;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.popin img {
+  position: absolute;
+
+  margin: auto auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  max-width: 80%;
+
+  z-index: 10001;
+}

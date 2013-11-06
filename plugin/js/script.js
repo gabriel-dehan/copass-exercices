@@ -1,0 +1,3 @@
+$(function() {
+    $('.column img').popin();
+});
